@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;    
+}
+.container{
+    background: #010b22;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5pc;
+}
+#right , #left{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 3px dashed rgb(200, 255, 0);
+    border-radius: 1pc;
+}
+.list{
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    background: transparent;
+    border-radius: 5pc;
+    border: 2px dashed yellow;
+    text-align: center;
+}
+.head{
+    position: absolute;
+    color: white;
+    padding: 3pc;
+    justify-content: center;
+}

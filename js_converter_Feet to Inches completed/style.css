@@ -1,0 +1,28 @@
+body{
+    background-color: #382828;
+    margin : 0px;
+    padding: 20px;
+}
+.container{
+    background: #330f0f;
+    color: white;
+    text-align: center;
+    margin: 10%;
+    border-radius: 2pc;
+    padding: 20px;
+}
+
+form{
+    display: block;
+    text-align: center;
+    
+    padding: 10px;
+}
+input{
+    height: 20px;
+    padding:  4px 29px;
+    border-radius: 2pc;
+    border: 1px solid white;
+    background: transparent;
+    color : white;
+}
